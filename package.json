@@ -1,0 +1,28 @@
+{
+  "name": "zoom-to-youtube",
+  "version": "1.0.0",
+  "description": "download a cloud recorded video from zoom and upload it to youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuildCrafts/zoom-to-youtube.git"
+  },
+  "keywords": [
+    "zoom",
+    "youtube"
+  ],
+  "author": "Jared Grippe <jared@learnersguild.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuildCrafts/zoom-to-youtube/issues"
+  },
+  "homepage": "https://github.com/GuildCrafts/zoom-to-youtube#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "dotenv": "^4.0.0",
+    "youtube-uploader": "^0.1.0"
+  }
+}
